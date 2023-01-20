@@ -1,5 +1,6 @@
 import React from "react";
 import CollapseWrapper from "../common/collapse";
+import Divider from "../common/divider";
 
 const HocExercise = () => {
     return (
@@ -76,6 +77,7 @@ const HocExercise = () => {
                 <code>SimpleComponent</code> обновится после перезагрузки
                 страницы
             </p>
+            <Divider />
         </CollapseWrapper>
     );
 };
